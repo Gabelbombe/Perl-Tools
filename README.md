@@ -21,7 +21,8 @@
 
 ###### Emulation of GETENT for OSX
 
-Hosts
+ - Hosts
+
 
     $ ./getent.pl hosts api.engradepro.com
     54.209.187.244  engradecore-pro-api-prod-ext-1744571025.us-east-1.elb.amazonaws.com api.engradepro.com
@@ -31,12 +32,14 @@ Hosts
     54.173.132.110  engradecore-pro-api-prod-ext-1744571025.us-east-1.elb.amazonaws.com api.engradepro.com
     52.72.110.176   engradecore-pro-api-prod-ext-1744571025.us-east-1.elb.amazonaws.com api.engradepro.com
 
-Groups
+ - Groups
 
-  $ ./getent.pl group wheel
-  wheel:x:0:
 
-Passwords
+    $ ./getent.pl group wheel
+    wheel:x:0:
 
-  $ ./getent.pl passwd ehime
-  ehime:x:501:20:Jd Daniel:/usr/local/bin/bash
+ - Passwords
+
+
+    $ ./getent.pl passwd ehime
+    ehime:x:501:20:Jd Daniel:/usr/local/bin/bash
